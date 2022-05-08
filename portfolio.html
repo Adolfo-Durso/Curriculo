@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Meu Currículo</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/cabecalho.css">
+        <link rel="stylesheet" href="css/corpo-portfolio.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <!-- menu retrátil lateral esquerda -->
+            <input type="checkbox" id="check">
+            <label id="icone" for="check"></label>
+                <div class="barra">
+                    <nav>
+                        <a href="index.html">
+                        <div class="Link">Home</div>
+                        </a>
+                        <a href="portfolio.html">
+                        <div class="Link">Portfólio</div>
+                        </a>
+                        <a href="#">
+                        <div class="Link">XP</div>
+                        </a>
+                        <a href="#">
+                        <div class="Link">+ Informações</div>
+                        </a>
+                        <a href="#">
+                        <div class="Link">Contato</div>
+                        </a>
+                    </nav>
+                </div>
+              
+                <nav class="menu">
+                  <a href="index.html">
+                    <img src="img/logo.png" id="logo" alt="Logo urso">
+                  </a>
+                </nav>
+              
+                <label for="menu-hamburguer">
+                  <div class="mburg">
+                    <span class="hamburguer"></span>
+                  </div>
+                </label>
+        </header>
+        <main>
+            <div class="titulo fundo">
+            <h1 class="titulo__pagina titulo-pagina">Portfólio</h1>
+            </div>
+        <section class="grid-portfolio">
+          <article class="cartao cartao--destaque">
+              <img src="img/barbearia.jpg" alt="Banner da Barbearia" class="cartao__imagem cartao__imagem--mobile">
+              <div class="cartao__conteudo">
+                  <h3 class="cartao__titulo">Barbearia Alura</h3>
+                  <div class="grid__botao">
+                  <button class="cartao__botao cartao__botao--pagina botao--pagina"><a href="https://adolfo-durso.github.io/Barbearia-Alura/">Página</a></button>    
+                  <button class="cartao__botao cartao__botao--codigo botao--codigo"><a href="https://github.com/Adolfo-Durso/Barbearia-Alura">Código</a></button>    
+                  </div>
+                </div>
+          </article>      
+          <article class="cartao cartao--destaque cartao__star--wars">
+                  <img src="img/star--wars.jpg" alt="Banner do Star Wars" class="cartao__imagem cartao__imagem--mobile">
+                  <div class="cartao__conteudo">
+                      <h3 class="cartao__titulo">Star Wars</h3>
+                      <div class="grid__botao">
+                      <button class="cartao__botao cartao__botao--pagina botao--pagina"><a href="https://adolfo-durso.github.io/star-wars/pagina-inicial.html">Página</a></button>    
+                      <button class="cartao__botao cartao__botao--codigo botao--codigo"><a href="https://github.com/Adolfo-Durso/star-wars">Código</a></button>    
+                      </div>
+                    </div>
+          </article>
+          <article class="cartao cartao--destaque cartao__apeperia">
+            <img src="img/apeperia.jpg" alt="Banner do Apeperia" class="cartao__imagem cartao__imagem--mobile">
+            <div class="cartao__conteudo">
+                <h3 class="cartao__titulo">Apeperia</h3>
+                <div class="grid__botao">
+                <button class="cartao__botao cartao__botao--pagina botao--pagina"><a href="https://adolfo-durso.github.io/Apeperia/">Página</a></button>    
+                <button class="cartao__botao cartao__botao--codigo botao--codigo"><a href="https://github.com/Adolfo-Durso/Apeperia">Código</a></button>    
+                </div>
+              </div>
+          </article>
+          <article class="cartao cartao--destaque cartao__hzc">
+            <img src="img/hzc.jpg" alt="Banner do HZC" class="cartao__imagem cartao__imagem--mobile">
+            <div class="cartao__conteudo">
+                <h3 class="cartao__titulo">HZC</h3>
+                <div class="grid__botao">
+                <button class="cartao__botao cartao__botao--pagina botao--pagina"><a href="https://adolfo-durso.github.io/HZC/">Página</a></button>    
+                <button class="cartao__botao cartao__botao--codigo botao--codigo"><a href="https://github.com/Adolfo-Durso/HZC">Código</a></button>    
+                </div>
+              </div>
+          </article>
+          <article class="cartao cartao--destaque cartao__moedas">
+            <img src="img/moedas.jpg" alt="Banner do Conversor de moedas" class="cartao__imagem cartao__imagem--mobile">
+            <div class="cartao__conteudo">
+                <h3 class="cartao__titulo">Conversor de moedas</h3>
+                <div class="grid__botao">
+                <button class="cartao__botao cartao__botao--pagina botao--pagina"><a href="https://adolfo-durso.github.io/Conversor-de-moedas/">Página</a></button>    
+                <button class="cartao__botao cartao__botao--codigo botao--codigo"><a href="https://github.com/Adolfo-Durso/Conversor-de-moedas">Código</a></button>    
+                </div>
+              </div>
+          </article>
+        </section>  
+        </main>

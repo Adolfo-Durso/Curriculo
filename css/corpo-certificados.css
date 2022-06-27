@@ -1,0 +1,85 @@
+main {          
+    margin-top: 100px;
+    background: url(../img/fundo-principal.jpg) ;
+    background-size: 100%;  
+}
+.titulo {
+    display: grid;
+    grid-template-columns: repeat(28 , 50px);
+}
+h1 {
+    font-size: 100px;
+    color: #808080;
+    padding: 10px;
+    font-family: 'Permanent Marker', cursive;
+    grid-column: 8;
+    text-shadow: 3px 3px #000000;
+}
+.accordion-hab {
+    background-color: #fff;
+    color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    margin-top: .5rem;
+    text-align: left;
+    border: 5px solid #000000;
+    border-radius: 15px;
+    outline: none;
+    transition: 0.4s;
+}
+.accordion-hab::after {    
+    content: "▼";
+}
+.active, .accordion:hover {
+     background-color: #fff;
+}
+.panel {
+    background-color: #c0c0c0;
+    border: 1px solid #808080;
+    width: 15rem;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    overflow: hidden;
+}
+.lista-certificados {
+    display: grid;
+    grid-template-columns: repeat(7 , 300px);
+    grid-template-rows: repeat(4 , 350px);
+    column-gap: 40px;
+    row-gap: 40px;
+}
+.cartao {
+    font-family: 'Just Another Hand', cursive;
+    border: 1px solid url(../img/fundo-cartao.jpg);
+    width: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 0px 5px 5px #808080;
+    margin-left: 30px;
+}
+.linha2-grid {
+    grid-row: 2;
+}
+.certificado {
+    width: 15.5rem;
+    border-radius: 5px;
+}
+.certificado:hover {
+    width: 16rem;
+}
+.cartao__titulo {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+.cartao__resumo {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+.cartao__resumo-itens:before {
+	content: "•";
+    margin-right: 0.20rem;
+}

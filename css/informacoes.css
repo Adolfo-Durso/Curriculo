@@ -1,0 +1,17 @@
+main {          
+    margin-top: 100px;
+    background: url(../img/fundo-principal.jpg);
+    background-size: 100%;  
+}
+.titulo {
+    display: grid;
+    grid-template-columns: repeat(28 , 50px);
+}
+h1 {
+    font-size: 100px;
+    color: #d3d3d3;
+    padding: 10px;
+    font-family: 'Permanent Marker', cursive;
+    grid-column: 7;
+    text-shadow: 3px 3px #000000;
+}

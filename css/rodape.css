@@ -1,0 +1,35 @@
+.container {
+    background-image: url(../img/fundo-rodape.jpg);
+}
+.social-midia {
+    display: flex;
+    margin-left: 45%;
+}
+.social-midia__icone {
+    display: inline-block;
+    margin-right: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.logo-rodape {
+    width: 8rem;
+    margin-left: 45%;
+    margin-top: 2rem;
+}
+.icone-git {
+    width: 1.5rem;
+}
+.icone-linke {
+    width: 1.5rem;
+}
+.icone-gmail {
+    width: 2rem;
+}
+.nome-rodape {
+    color: #fff;
+    margin-left: 43%;
+    margin-top: 0.2rem;
+    font-size: 2rem;
+    font-family: 'Permanent Marker', cursive;
+
+}

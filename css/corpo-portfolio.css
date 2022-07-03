@@ -19,7 +19,6 @@ h1 {
     display: grid;
     grid-template-columns: repeat(7 , 300px);
     grid-template-rows: repeat(4 , 245px);
-    column-gap: 0.5rem;
     row-gap: 40px;
 }
 .cartao {
